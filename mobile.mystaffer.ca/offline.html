@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html lang="en" dir="ltr"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>MyStaffer</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+		<meta name="apple-mobile-web-app-title" content="MyStaffer">
+		<meta name="mobile-web-app-capable" content="yes">
+      <style media="screen">
+         html, body {width:100%;height:100%;margin:0;padding:0;overflow:hidden;font-family:sans-serif;}
+         #main-framework-mobileapp {width:100%;height:100%;text-align:center;}
+         .offline {width:96%;margin:auto;margin-top:50%;transform:translatey(50%);}
+         .offline-title {font-size:30px;}
+         .offline-sub {font-size:20px;color:#ced6e0;}
+         .offline-btn {width:80%;text-align:center;border:1px solid #ced6e0;color:#ced6e0;margin:auto;border-radius:5px;padding:2% 0;margin-top:20px;}
+
+      </style>
+	</head>
+	<body>
+
+		<div id="main-framework-mobileapp">
+         <div class="offline">
+            <span class="offline-title">Pas de connexion Internet!</span><br><br>
+            <span class="offline-sub">MyStaffer a besoin d'Internet pour fonctionner. Connectez-vous a un réseau et appuyer sur rafraîchir.</span><br>
+            <div class="offline-btn" onclick="location.href='home'">Rafraîchir</div>
+         </div>
+      </div>
+
+
+   </body>
+</html>

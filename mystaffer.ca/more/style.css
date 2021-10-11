@@ -1,0 +1,15 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	height: 100%;width: 100%;
+}
+#main-frame {
+	height: 100%;width: 100%;
+}
+
+.wrapper {width: 100%;background: #f1f2f6;margin: auto;}
+.def-rest {width: 60%;margin: auto;}
+.wrp-content {width: 100%;background: #fff;}
+.wrp-title {width: 90%;margin: auto;}
+.wrp-text {width: 90%;margin: auto;}

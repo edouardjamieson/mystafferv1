@@ -1,0 +1,15 @@
+.loading {width: 100%;height: 100%;position: absolute;z-index: 1000;text-align: center;background: #fff;}
+
+.login-container {width: 100%;height: 100%;background: #ff4757;}
+.back-btn {}
+.login-form {width: 30%;margin: auto;background: #fff;padding: 2% 0;padding-top: 0;border-radius: 3px;box-shadow: 0 10px 10px rgba(0,0,0,0.2);transform: translateY(25%);}
+.login-label {width: 100%;text-align: center;padding: 5% 0;box-shadow: 0 5px 5px rgba(0,0,0,0.1);font-size: 1.2vw;font-weight: bold;}
+.logo-space {width: 100%;text-align: center;padding: 5% 0;}
+.logo-space img {width: 40%;height: auto;}
+.lg-fr {width: 96%;margin: auto;text-align: center;}
+.login-textbox {width: 100%;background: #f1f2f6;border-radius: 3px;margin-bottom: 1%;padding: 1% 0;}
+.login-tb {width: 90%;padding: 2%;background: none;border: none;font-size: 1vw;}
+.login-button {width: 100%;padding: 3% 0;background: #ff4757;font-size: 1vw;color: #fff;border-radius: 3px;border: none;cursor: pointer;}
+.login-link {margin-top: 5%;text-align: center;}
+.login-link-btn {color: #ff4757;font-size: 0.8vw;text-decoration: none;margin: 1%;}
+.login-notice {width:80%;margin:auto;text-align:center;color:#ced6e0;padding-top:2%;}

@@ -1,0 +1,93 @@
+html, body {
+	height: 100%;width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+#main-frame {height: 100%;width: 100%;}
+.def-rest {width: 65%;margin: auto;}
+.def-redbtn {padding: 1.5%;background: #ff4757;text-decoration: none;color: #fff;border-radius: 5px;box-shadow: 0 3px 5px rgba(0,0,0,0.2);}
+
+.header-navigation {width: 100%;text-align: right;padding: 1.5% 0;background: #fff;}
+.header-logo {float: left;width: 10%;height: auto;}
+.hd-nav-link {color: #dfe4ea;font-size: 0.8vw;text-decoration: none;margin-left: 2%;}
+.hd-nav-link:hover {color: #000;}
+.hd-nav-implink {background: #ff4757; color: #fff;font-size: 0.8vw;padding: 0.8%;margin-left: 2%;text-decoration: none;border-radius: 5px;box-shadow: 0 3px 5px rgba(0,0,0,0.2);}
+.hd-nav-lglink {background: #fff;font-size: 0.8vw;padding: 0.8%;margin-left: 0.5%;text-decoration: none;border-radius: 5px; border: 1px solid #f1f2f6;color: #dfe4ea;box-shadow: 0 3px 5px rgba(0,0,0,0.1);}
+.hd-nav-lglink:hover {color: #ff4757;}
+
+.index-presview {background: #fff;padding: 5% 0;}
+.idxpre-textcontent {width: 50%;float: left;}
+.idx-txtsep {width: 60%;height: 1px;background: #f1f2f6;margin-top: 1%;margin-bottom: 1%;}
+.idxpre-imgcontent {width: 50%;float: left;text-align: center;}
+.index-phone {width: 70%;height: auto;}
+
+.index-features {width: 100%;padding: 5% 0;background: #f1f2f6;}
+.ftr-title {width: 30%;text-align: center;font-size: 1vw;font-weight: bold;margin: auto;border-bottom: 3px solid #ff4757;padding: 2% 0;}
+.ftr-box {background: #fff;width: 30%;float: left;text-align: center;padding: 2% 1%;box-shadow: 0 0 10px rgba(0,0,0,0.1);margin-bottom: 2%;border-radius: 3px;}
+.ftr-img {width: 40%;height: auto;}
+.ftr-boxtitle {color: #ff4757;font-weight: bold;font-size: 1vw;}
+.ftr-boxsep {width: 70%;margin: auto;height: 1px;background: #f1f2f6;margin-top: 3%;margin-bottom: 5%;}
+.ftr-boxctn {width: 90%;margin: auto;text-align: center;color: #ced6e0;font-size: 0.8vw;}
+.ftr-box:hover .ftr-boxctn {color: #000;transition-duration: 0.2s;}
+.ftr-teaser {width: 100%;text-align: center;font-size: 1.5vw;font-weight: bold;margin-top: 5%;}
+
+.index-interfaceoverview {width: 100%;background: #fff;padding: 5% 0;}
+.inter-title {width: 100%;text-align: center;font-size: 2vw;font-weight: bold;}
+.inter-subtitle {width: 100%;text-align: center;font-size: 1vw;}
+.inter-imgs {text-align: center;width: 100%;margin-top: 4%;}
+.inter-img {width: 20%;height: auto;margin: 2%;}
+.inter-sep {width: 70%;margin: auto;height: 1px;background: #f1f2f6;margin-bottom: 5%;}
+.inter-links {width: 100%;text-align: center;}
+.inter-link {width: 30%;display: inline-block;margin: 3%;}
+.inter-linkbox {width: 80%;margin: auto;text-align: center;padding: 3% 2%;border-radius: 5px;background: #2f3542;margin-top: 1%;}
+.inter-linkbox a {color: #fff;text-decoration: none;} .inter-linkbox:hover {text-decoration: underline;}
+
+.index-invite {width: 100%;padding: 5% 0;background: #f1f2f6;}
+.inv-title {width: 100%;text-align: center;font-size: 1.2vw;font-weight: bold;}
+.inv-subdesc {width: 40%;margin: auto;margin-top: 2%;font-size: 0.8vw;text-align: center;}
+
+.footer-view {width: 100%;padding: 3% 0;background: #2f3542;}
+.footer-content {width: 75%;margin: auto;}
+.fot-linkbox {width: 25%;float: left;text-align: center;}
+.footer-link {color: #57606f;text-decoration: none;}
+.footer-link:hover {color: #a4b0be;}
+.fot-logo {width: 100%;text-align: center;margin-top: 4%;}
+.fot-logo img {width: 15%;height: auto;}
+
+.prd-plans-wrapper {width: 100%;margin: auto;text-align: center;padding: 5% 0;margin-bottom: 5%;}
+.prd-title {width: 30%;margin: auto;text-align: center;font-size: 1.5vw;padding: 1% 0;border-bottom: 3px solid #ff4757;font-weight: bold;}
+.plan-box {display: inline-flex;width: 25%;box-shadow: 0 2px 5px rgba(0,0,0,0.2);border-radius: 3px;margin: 0.5%;}
+.plan-box:hover {box-shadow: 0 2px 5px rgba(255,71,87,0.5);transition-duration: 0.2s;}
+.plan-content {width: 90%;margin: auto;}
+.plan-title {font-size: 1.5vw;font-weight: bold;width: 100%;text-align: center;}
+.plan-pricing {width: 100%;text-align: center;margin-top: 4%;}
+.plan-price {font-weight: bold;font-size: 1.3vw;}
+.plan-timing {font-size: 0.9vw;color: #ff4757;}
+.plan-duration {width: 100%;text-align: center;color: #ff4757;font-size: 1vw;margin-top: 4%;}
+.plan-sep {width: 80%;margin: auto;height: 1px;background: #f1f2f6;margin-top: 5%;margin-bottom: 5%;}
+.plan-ftr {font-size: 0.9vw;text-align: left;}
+.plan-btn {width: 100%;text-align: center;}
+.plan-choosebtn {padding: 3% 0;text-align: center;cursor: pointer;background: #ff4757;text-decoration: none;color: #fff;border-radius: 5px;box-shadow: 0 3px 5px rgba(0,0,0,0.2);font-size: 1vw;}
+.plan-freealert {width: 100%;text-align: center;font-size: 0.7vw;color: #dfe4ea;}
+.prd-betabox {width: 80%;margin: auto;background: #f1f2f6;padding: 5% 0;border-radius: 10px;text-align: center;}
+.prd-betabox-ft {font-weight: bold;font-size: 0.9vw;}
+.prd-betabox-st {font-size: 0.8vw;}
+.prd-betacode {width: 60%;margin: auto;text-align: center;background: #dfe4ea;color: #ff4757;padding: 1% 0;border-radius: 10px;}
+.prd-bcodetb {width: 96%;margin: auto;background: none;font-size: 1.5vw;border: none;color: #ff4757;}
+.prd-bcodebtn {width: 20%;padding: 2%;background: #dfe4ea;color: #000;font-size: 1vw;border-radius: 5px;border:none;cursor: pointer;}
+.prd-bcodebtn:hover {background: #ff4757;color: #fff;}
+
+
+.contact-view {width: 100%;padding: 5% 0; margin-bottom: 5%}
+.contact-title {width: 100%;text-align: center;font-size: 1.5vw;font-weight: bold;}
+.contact-subdesc {width: 45%;margin: auto;font-size: 0.9vw;text-align: center;margin-top: 1%;}
+.contact-form {width: 100%;text-align: center;margin-top: 5%;}
+.contact-tbbox {width: 40%;border:1px solid #f1f2f6;margin: auto;border-radius: 3px;margin-bottom: 1%;}
+.contact-tb {width: 92%;padding: 1.5% 0;background: none;border: none;font-size: 1vw;outline: none;}
+.contact-ta {width: 92%;height: 200px;resize: none;border:none;background:none;font-size: 1vw;outline: none;}
+.contact-sendbtn {width: 40%;margin: auto;background: #ff4757;border-radius: 3px;border-radius: 3px;box-shadow: 0 3px 5px rgba(0,0,0,0.2);cursor: pointer;}
+.contact-sub {font-size: 1vw;color: #fff;width: 100%;padding: 1% 0;border:none;background: none;outline: none;cursor: pointer;}
+.contact-sep {width: 80%;margin: auto;background: #f1f2f6;height: 1px;text-align: center;line-height: 1px;margin-top: 5%;}
+.contact-sep span {padding: 10px;background: #fff;color: #f1f2f6;}
+.contact-self {width: 100%;text-align: center;margin-top: 5%;font-size: 1vw;}

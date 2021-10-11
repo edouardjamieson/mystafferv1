@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html lang="en" dir="ltr"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>MyStaffer - Panneau de contrôles</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="content/css/main.css">
+		<link rel="stylesheet" href="content/css/dashboard.css">
+	</head>
+	<body onload="side();">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="content/js/main.js" type="text/javascript"></script>
+		<script src="content/js/side.js" type="text/javascript"></script>
+
+		<div class="loading">
+			<img src="content/img/ajax-loader.gif" alt="" draggable="false">
+		</div>
+		<div id="main-frame">
+
+			<div class="dash-navigation">
+				<div class="dn-content">
+
+					<div class="dnc-icons">
+						<div class="dn-link menu-icon" style="margin-bottom:20%;" onclick="openMenu()">
+							<img src="content/img/menu-icon.png" alt="" class="nav-icon x-icon">
+						</div>
+						<div class="dn-link" onclick="location.href='home'">
+							<img src="content/img/home-icon.png" alt="" class="nav-icon">
+						</div>
+						<div class="dn-link" onclick="location.href='staff'">
+							<img src="content/img/name-icon.png" alt="" class="nav-icon">
+						</div>
+						<div class="dn-link" onclick="location.href='posts'">
+							<img src="content/img/newpost-icon.png" alt="" class="nav-icon">
+						</div>
+						<div class="dn-link dnl-active" onclick="location.href='events'">
+							<img src="content/img/event-icon.png" alt="" class="nav-icon">
+						</div>
+						<div class="dn-link" onclick="location.href='schedule'">
+							<img src="content/img/schedule-icon.png" alt="" class="nav-icon">
+						</div>
+						<div class="dn-link" onclick="location.href='settings'">
+							<img src="content/img/settings-icon.png" alt="" class="nav-icon">
+						</div>
+						<div class="dn-link" onclick="location.href='logout'">
+							<img src="content/img/logout-icon.png" alt="" class="nav-icon">
+						</div>
+
+					</div>
+					<div class="dn-labels">
+						<div class="dn-label" onclick="closeMenu()" style="margin-bottom:10%;">Fermer</div>
+						<div class="dn-label" onclick="location.href='home'">Accueil</div>
+						<div class="dn-label" onclick="location.href='staff'">Employés</div>
+						<div class="dn-label" onclick="location.href='posts'">Publications</div>
+						<div class="dn-label" onclick="location.href='events'">Évènements</div>
+						<div class="dn-label" onclick="location.href='schedule'">Horaires</div>
+						<div class="dn-label" onclick="location.href='settings'">Paramètres</div>
+						<div class="dn-label" onclick="location.href='logout'">Déconnexion</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="dash-wrapper">
+				<div class="wrapper">
+					<div class="wrp-header">
+						<img src="content/img/logo-full.png" class="hdr-logo" alt="">
+						<img src="content/img/search-icon.png" class="hdr-search" alt="">
+					</div>
+					<div class="content-title">Évènements</div>
+
+					<div class="page-subnav">
+						<a href="ranks" class="psub-link">Créer un évènemenent</a>
+					</div>
+
+               <div class="content-title">Prochain</div>
+               <div class="next-event">
+               	<div class="nev-ctn">
+               		<div class="nev-icon"></div>
+							<div class="nev-title">Party de noel</div>
+							<br clear="both">
+							<div class="nev-desc">
+								Pour le party, arrivez chic, beau pentalon, chemise, robe, etc. Vous pouvez amener de l'alcool. N'oubliez pas votre 23$.
+							</div>
+							<div class="nev-date">L'évènement aura lieu le 03/12/2019</div>
+               	</div>
+               </div>
+
+					<div class="content-title">À venir</div>
+					<div class="event">
+						<div class="ev-ctn">
+							<div class="ev-title">Réunion</div>
+							<div class="ev-sep"></div>
+							<div class="ev-date">12/12/2019</div>
+							<div class="ev-buttons">
+								<img src="content/img/editpost-icon.png" class="ev-btn" alt="">
+								<img src="content/img/deletepost-icon.png" class="ev-btn" alt="">
+							</div>
+						</div>
+					</div><div class="event">
+						<div class="ev-ctn">
+							<div class="ev-title">Réunion</div>
+							<div class="ev-sep"></div>
+							<div class="ev-date">12/12/2019</div>
+							<div class="ev-buttons">
+								<img src="content/img/editpost-icon.png" class="ev-btn" alt="">
+								<img src="content/img/deletepost-icon.png" class="ev-btn" alt="">
+							</div>
+						</div>
+					</div><div class="event">
+						<div class="ev-ctn">
+							<div class="ev-title">Réunion</div>
+							<div class="ev-sep"></div>
+							<div class="ev-date">12/12/2019</div>
+							<div class="ev-buttons">
+								<img src="content/img/editpost-icon.png" class="ev-btn" alt="">
+								<img src="content/img/deletepost-icon.png" class="ev-btn" alt="">
+							</div>
+						</div>
+					</div><div class="event">
+						<div class="ev-ctn">
+							<div class="ev-title">Réunion</div>
+							<div class="ev-sep"></div>
+							<div class="ev-date">12/12/2019</div>
+							<div class="ev-buttons">
+								<img src="content/img/editpost-icon.png" class="ev-btn" alt="">
+								<img src="content/img/deletepost-icon.png" class="ev-btn" alt="">
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+
+
+		</div>
+		<script language="javascript" type="text/javascript">
+		 	$(window).load(function() {
+		     	$('.loading').hide();
+		  	});
+		</script>
+
+	</body>
+</html>

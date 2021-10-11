@@ -1,0 +1,207 @@
+.loading {width: 100%;height: 100%;position: absolute;z-index: 1000;text-align: center;background: #fff;}
+.tutorial {width: 100%;height: 100%;position: absolute;z-index: 999;text-align: center;background: rgba(0,0,0,0.4);}
+.tut-box {width: 50%;height: 80%;margin: auto;background: #fff;padding: 1% 0;border-radius: 10px;transform: translateY(10%);}
+.tut-content {width: 96%;margin: auto;}
+.tut-title {font-size: 2vw;font-weight: bold;}
+.tut-sep {width: 80%;margin: auto;height: 1px;background: #f1f2f6;margin-top: 2%;margin-bottom: 2%;}
+.tut-desc {text-align: justify;}
+
+
+.dash-navigation {width: 4%;height: 100%;float: left;background: #fff;}
+.dn-content {width: 100%;height: 100%;margin: auto;}
+.dnc-icons {width: 100%;height: 100%;float: left;}
+.dn-link {width: 100%;text-align: center;height: 8%;cursor: pointer;}
+.dnl-active {border-left: 5px solid #ff4757;box-sizing: border-box;}
+.nav-icon {width: 40%;height: auto;vertical-align: middle;vertical-align: middle;}
+.dn-labels {width: 60%;float: left;height: 100%;}
+.dn-label {height: 8%;cursor: pointer;font-size: 0.8vw;}
+.dn-label:hover {text-decoration: underline;}
+.open-menu-anim {animation-name: openmenu;animation-duration: 0.6s;animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);}
+@keyframes openmenu {
+	0%{width: 4%}
+	100%{width: 15%;}
+}
+.close-menu-anim {animation-name: closemenu;animation-duration: 0.6s;animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);}
+@keyframes closemenu {
+	0%{width: 15%}
+	100%{width: 4%;}
+}
+.small-wrapper {animation-name: smallwrapper;animation-duration: 0.6s;animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);}
+@keyframes smallwrapper {
+	0%{width: 96%}
+	100%{width: 85%;}
+}
+.big-wrapper {animation-name: bigwrapper;animation-duration: 0.6s;animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);}
+@keyframes bigwrapper {
+	0%{width: 85%}
+	100%{width: 96%;}
+}
+
+.hovshadow {transition: all 0.2s ease;}
+.hovshadow:hover {box-shadow: 0 10px 20px rgba(0,0,0,0.1);}
+/* wrapper */
+
+.dash-wrapper {width: 96%;margin: auto;height: 100%;overflow-y: auto;}
+.wrapper {width: 80%;margin: auto;height: 100%;}
+.wrp-header{width: 100%;padding: 2% 0;}
+.hdr-logo {height: 30px;width: auto;vertical-align: middle;}
+.hdr-search{height: 50px;width: auto;float: right;cursor: pointer;transform: translateY(-25%);}
+.content-title {padding: 1% 0;font-size: 1vw;}
+.page-subnav {width: 100%;background: #fff;border-radius: 10px;padding: 1% 0;margin-bottom: 1%;box-shadow: 0 0 10px rgba(0,0,0,0.05);}
+.psub-link {text-decoration: none;font-size: 0.8vw;color: #ff4757;padding: 1%;border-radius: 10px;}
+.psub-link:hover {background: #ff4757;color: #fff;}
+.search-layout {width: 100%;height: 100%;background: #fff;position: relative;display: none;}
+.search-ctn {width: 50%;margin: auto;text-align: center;}
+.search-exit {width: 10%;float: right;cursor: pointer;}
+.search-exit img {width: 100%;height: auto;}
+.search-textbox {width: 96%;padding: 2% 1%;font-size: 1vw;border: 1px solid #f1f2f6;border-radius: 5px;}
+/*  */
+
+/* HOME */
+.home-infosbox {width: 100%;margin-bottom: 1%;}
+.ib-commerce {float: left;width: 60%;background: #fff;border-radius: 10px;text-align: center;padding: 3% 0;box-shadow: 0 0 10px rgba(0,0,0,0.05);}
+.ibc-name {font-size: 2.5vw;}
+.ibc-no {padding: 1%;background: #ff4757;color: #fff;width: 10%;margin:auto;margin-top: 1%;border-radius: 360px;margin-bottom: 1%;}
+.ibc-infos a {color: #ff4757;text-decoration: none;}
+.ib-user {width: 38%;float: left;margin-left: 2%;background: #fff;padding: 3% 0;border-radius: 10px;text-align: center;box-shadow: 0 0 10px rgba(0,0,0,0.05);}
+.ibu-pdp {width: 70px;height: 70px;background: #ff4757;margin: auto;text-align: center;line-height: 70px;font-size: 2vw;border-radius: 360px;color: #fff;}
+.ibu-name {padding: 2% 0;}
+.home-statsbox {width: 100%;margin-bottom: 1%;}
+.statbox {background: #fff;border-radius: 10px;float: left;width: 23.5%;text-align: center;padding: 3% 0;cursor: pointer;box-shadow: 0 0 10px rgba(0,0,0,0.05);}
+.stat-icon {width:15%;height: auto;background: rgba(0,0,0,0.1);border-radius: 360px;padding: 2%;transition: all 0.2s ease;}
+.stat-nb {font-size: 2vw;margin-top: 3%;}
+.stat-label {font-size: 0.8vw;color: #ced6e0;}
+.statbox:hover .stat-icon {background: rgba(255, 71, 87,0.5);}
+.home-nextbox {width: 100%;margin-bottom: 1%;}
+.ne-box {width: 70%;float: left;background: #fff;border-radius: 10px;text-align: center;padding: 3% 0;box-shadow: 0 0 10px rgba(0,0,0,0.05);}
+.ne-icon {width: 10%;height: auto;}
+.ne-name {font-size: 2vw;}
+.ne-date {margin-top: 1%;color: #ced6e0;font-size: 0.8vw;margin-bottom: 1%;}
+.nes-box {width: 28%;float: left;cursor: pointer;background: #fff;border-radius: 10px;text-align: center;padding: 3% 0;margin-left: 2%;box-shadow: 0 0 10px rgba(0,0,0,0.05);}
+.nes-icon {width: 40%;height: auto;}
+/*  */
+
+/* STAFF */
+.emp-layout {width: 100%;}
+.emp-exp {width: 98%;margin: auto;margin-bottom: 1%;}
+.empexp-label {float: left;}
+
+.empbox-content {width: 98%;margin: auto;font-size: 0.9vw;}
+.emp-box {width: 100%;background: #fff;padding: 1% 0;border-bottom: 2px solid #dfe4ea;}
+.emp-box:hover {background: rgba(0,0,0,0.1);}
+.emp-name {float: left;width: 25%;}
+.emp-tel {float: left;width: 20%;}
+.emp-email {float: left;width: 25%;}
+.emp-rank {float: left;width: 20%;}
+.emp-delete {float: left;width: 10%;vertical-align: middle;text-align: right;}
+.emp-delete img {width: 30px;height: auto;cursor: pointer;}
+.emp-form {text-align: right;margin: 0;}
+.emp-acc {float: left;width: 30%;}
+.addstaff-btn {padding: 2% 5%;border: none;border-radius: 5px;font-size: 0.8vw;cursor: pointer;}
+.addbtn {background: #ff4757;color: #fff;}
+.deletesbtn {background: #f1f2f6;color: #000;}
+/*  */
+
+/* POST */
+.post-layout {width: 100%;}
+.post {width: 100%;background: #fff;border-radius: 10px;padding: 1% 0;margin-bottom: 2%;}
+.pinned {background: linear-gradient(#f86673,#ff4757)!important;color: #fff!important;}
+.post-ctn {width: 96%;margin: auto;}
+.post-date {float: left;text-align: center;margin-right: 2%;width: 4%;}
+.pdate-day {font-size: 2vw;font-weight: bold;}
+.pdate-month {font-size: 1vw;font-weight: bold;text-transform: uppercase;}
+.post-writter {font-size: 2vw;margin-bottom: 1%;}
+.post-content {width:94%;float: right;}
+.post-buttons {width: 50%;float: right;text-align: right;margin-top: 1%;}
+.post-btn {width: 7%;height: auto;cursor: pointer;margin-left: 1%;}
+.pin-submit {visibility: hidden;margin: 0;width: 0;height: 0;}
+.post-link {background: #f1f2f6;color: #000;text-decoration: none;font-size: 1vw;padding: 1%;border-radius: 360px;margin-top: 2%;}
+
+.newpost-layout {width: 100%;background: #fff;padding: 1% 0; border-radius: 10px;}
+.newpost-ctn {width: 96%;margin: auto;}
+.np-text {width: 98%;margin: auto;padding: 1%;max-width: 98%;min-width: 98%;height: 200px;min-height: 200px;max-height: 300px;color: #000;font-size: 1vw;border: 1px solid #f1f2f6;border-radius: 5px;font-family:sans-serif;}
+.np-tb {width: 98%;margin: auto;padding: 1%;margin-top: 1%;border-radius: 5px;border: 1px solid #f1f2f6;font-size: 1vw;}
+.npfile-btn {width: 98%;margin: auto;padding: 1%;margin-top: 1%;border-radius: 5px;border: 1px solid #f1f2f6;font-size: 1vw;text-align: center;color: #ced6e0;transition: all 0.2s ease;cursor: pointer;}
+.npfile-lbtn {width: 100%;cursor: pointer;}
+.npfile-btn:hover {background: #f1f2f6;color: #000;}
+.npfile-sub {visibility: hidden;}
+.np-submitbtn {width: 98%;padding: 1%;margin: auto;background: #f1f2f6;color: #000;text-align: center;border-radius: 5px;cursor: pointer;transition: all 0.2s ease;margin-top: 2%;}
+.np-submit {width: 100%;background: none;border: none;font-size: 1vw;cursor: pointer;}
+.np-submitbtn:hover {background: #ff4757;}
+.np-submitbtn:hover .np-submit {color: #fff;}
+
+.deletepost-btn {padding: 2%;font-size: 1vw;cursor: pointer;text-decoration: none;border-radius: 5px;border: none;}
+.deletebtn {background: #ff4757;color: #fff;}
+.keepbtn {background: #f1f2f6;color: #000;}
+/*  */
+
+/* EVENTS */
+.next-event {width: 100%;padding: 1% 0;border-radius: 10px;background: #fff;}
+.nev-ctn {width: 96%;margin: auto;}
+.nev-icon {width: 20px;height: 20px;background: #ff4757;border-radius: 360px;float: left;margin-right: 1%;}
+.nev-title {font-size: 1.5vw;float: left;height: 20px;line-height: 20px;font-weight: bold;}
+.nev-desc {width: 100%;margin-top: 1%;color: #000;font-size: 1vw;}
+.nev-date {width: 100%;text-align: right;margin-top: 2%;}
+
+.event {width: 31%;padding: 1% 0; background: #fff;border-radius: 10px;float: left;margin-right: 2%;margin-bottom: 2%;}
+.ev-ctn {width: 96%;margin: auto;text-align: center;}
+.ev-title {font-size: 1.5vw;font-weight: bold;}
+.ev-sep {width: 70%;height: 1px;background: #dfe4ea;margin: auto;margin-top: 4%;margin-bottom: 4%;}
+.ev-buttons {width: 100%;text-align: center;margin-top: 7%;}
+.ev-btn {width: 10%;height:auto;cursor: pointer;}
+
+.newevent-layout {width: 100%;background: #fff;padding: 1% 0; border-radius: 10px;}
+.newevent-ctn {width: 96%;margin: auto;}
+.newevent-tb {width: 98%;margin: auto;padding: 1%;margin-bottom: 1%;border-radius: 5px;border: 1px solid #f1f2f6;font-size: 1vw;}
+.newevent-text {width: 98%;margin: auto;padding: 1%;max-width: 98%;min-width: 98%;height: 100px;min-height: 100px;max-height: 150px;color: #000;font-size: 1vw;border: 1px solid #f1f2f6;border-radius: 5px;font-family:sans-serif;}
+
+/*  */
+
+
+/* SCHEDULE */
+
+.schedule-layout {width: 100%;}
+.choose-schedule {width: 100%;}
+.sc-week {width: 100%;background: #fff;padding: 1% 0;border-bottom: 2px solid #dfe4ea;cursor: pointer;}
+.sc-week:hover {background: rgba(0,0,0,0.1);}
+.scweek-ctn {width: 98%;margin: auto;}
+.scw-infos {width: 25%;float: left;font-size: 0.9vw;}
+.scw-delete {text-align: right;}
+.scw-delete img {width: 30px;height: auto;cursor: pointer;}
+.sc-exp {width: 98%;margin: auto;}
+.scexp-label {width: 25%;float: left;margin-bottom: 1%;}
+
+.show-schedule {width:100%;}
+.sc-weekteller {width:100%;text-align:center;margin-top:2%;}
+.sc-weeknb {font-size:1.5vw;font-weight:bold;}
+.sc-weekdays {font-size:1vw;}
+.sc-schedule {width:100%;background:#fff;padding:1% 0;border-radius:5px;margin-top:2%;}
+.schedule {width:96%;margin:auto;}
+.schedule th {background:#f1f2f6;border-bottom: 1px solid #000;border-left: 1px solid #000;padding:0.8% 0;font-size:0.8vw;}
+.schedule td {border-bottom: 1px solid #000;}
+.sc-indic {border-top:1px solid #000;background:#dfe4ea!important;}
+.sc-timestamp {width: 100%;border: none;border-bottom: 1px solid #f1f2f6;}
+.sc-param {width: 96%;margin: auto;}
+.scparam-label {font-size: 1vw;}
+.scparam-week {width: 30%;padding: 1% 0;font-size: 1vw;font-family: sans-serif;border: 1px solid #f1f2f6;border-radius: 5px;margin-top: 1%;margin-bottom: 1%;}
+.scparam-fixe {margin-bottom: 2%;}
+.fixedsche-alert {width: 98%;padding: 1%;background: #f1f2f6;border-radius: 5px;font-size: 1vw;margin-bottom: 2%;display: none;}
+.sc-createbtn {width: 96%;margin: auto;text-align: center;background: #f1f2f6;transition: all 0.2s ease;margin-top: 2%;border-radius: 5px;padding: 1% 0;cursor: pointer;}
+.sc-submit {cursor: pointer;transition: all 0.2s ease;width: 100%;font-size: 1vw;background: none;border: none;}
+.sc-createbtn:hover {background: #ff4757;}.sc-createbtn:hover .sc-submit{color: #fff;}
+/*  */
+
+/* SETTINGS */
+.stg-title {width: 100%;font-size: 1vw;margin: auto;text-align: left;margin-bottom: 1%;}
+.stg-box {width: 100%;border-radius: 5px;padding: 1% 0;background: #fff;margin-bottom: 1%;}
+.stg-boxctn {width: 96%;margin: auto;}
+.stg-stglabel {font-size: 0.8vw;}
+.stg-tb {width: 40%;padding: 0.8%;font-size: 1vw;margin-bottom: 1%;border: 1px solid #f1f2f6;border-radius: 3px;}
+/*  */
+
+/* THANK YOU */
+.thankyou {width: 60%;margin: auto;text-align: center;}
+.ty-logo {width: 50%;margin: auto;text-align: center;margin-top: 5%;margin-bottom: 5%;}
+.ty-logo img {width: 100%;height: auto;}
+
+/*  */
